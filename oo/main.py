@@ -10,4 +10,7 @@ print(max.idade)
 
 for filho in max.filhos:
     print(filho.nome)
-
+max.sobrenome='Wesley'
+del max.filhos
+print(max.__dict__)
+print(caio.__dict__)
