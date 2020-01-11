@@ -10,3 +10,11 @@ class Pessoa():
 
     def cumprimentar(self):
         return 'oi'
+
+    @staticmethod
+    def metodo_estatico():
+        return 42
+
+    @classmethod
+    def nome_e_atruibutos_de_clases(cls): #pode acessar os atributos da classe
+        return f'{cls} - olhos {cls.olhos}'

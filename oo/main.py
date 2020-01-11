@@ -18,3 +18,5 @@ Pessoa.olhos=3
 print(Pessoa.olhos)
 print(max.olhos)
 print(id(Pessoa.olhos), id(max.olhos), id(caio.olhos))
+print(Pessoa.metodo_estatico(), max.metodo_estatico())
+print(Pessoa.nome_e_atruibutos_de_clases() )
