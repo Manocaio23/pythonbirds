@@ -1,8 +1,10 @@
 from oo.pessoa import Pessoa
+from oo.homem import Homem
 
 
-caio=Pessoa(nome='Caio')
-max=Pessoa(caio ,nome='Max')
+caio=Homem(nome='Caio')
+max=Homem(caio ,nome='Max')
+
 print(Pessoa.cumprimentar(caio))
 print(caio.nome)
 print(max.nome)
