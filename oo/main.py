@@ -1,8 +1,9 @@
 from oo.pessoa import Pessoa
 from oo.homem import Homem
+from oo.Mutantes import Mutantes
 
 
-caio=Homem(nome='Caio')
+caio=Mutantes(nome='Caio')
 max=Homem(caio ,nome='Max')
 
 print(Pessoa.cumprimentar(caio))
@@ -22,3 +23,6 @@ print(max.olhos)
 print(id(Pessoa.olhos), id(max.olhos), id(caio.olhos))
 print(Pessoa.metodo_estatico(), max.metodo_estatico())
 print(Pessoa.nome_e_atruibutos_de_clases() )
+print(f'Caio vai ter {caio.olhos} Olhos')
+print(caio.cumprimentar())
+print(max.cumprimentar())

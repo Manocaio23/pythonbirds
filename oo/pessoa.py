@@ -9,7 +9,7 @@ class Pessoa():
 
 
     def cumprimentar(self):
-        return 'oi'
+        return f'Olá meu nome é {self.nome}'
 
     @staticmethod
     def metodo_estatico():
