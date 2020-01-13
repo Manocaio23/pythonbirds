@@ -1,5 +1,6 @@
 class Pessoa():
     olhos=2 #atributo default ou atributo de classe
+    orelha=2
 
 
     def __init__(self,*filhos, nome=None, idade=35):#seria o moetodo contrutor. nome do parametro caso
@@ -16,5 +17,5 @@ class Pessoa():
         return 42
 
     @classmethod
-    def nome_e_atruibutos_de_clases(cls): #pode acessar os atributos da classe
-        return f'{cls} - olhos {cls.olhos}'
+    def nome_e_atruibutos_de_clases(cls): #pode acessar os atributos da classe no caso olhos da classe e orelhas
+        return f'{cls} - olhos {cls.olhos} e orelhas {cls.orelha}'

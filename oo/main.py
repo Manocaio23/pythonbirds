@@ -10,7 +10,7 @@ print(Pessoa.cumprimentar(caio))
 print(caio.nome)
 print(max.nome)
 print(max.idade)
-max.olhos=1
+max.olhos=1# posso trocar na classe principal diretamente
 for filho in max.filhos:
     print(filho.nome)
 max.sobrenome='Wesley'
@@ -23,6 +23,8 @@ print(max.olhos)
 print(id(Pessoa.olhos), id(max.olhos), id(caio.olhos))
 print(Pessoa.metodo_estatico(), max.metodo_estatico())
 print(Pessoa.nome_e_atruibutos_de_clases() )
-print(f'Caio vai ter {caio.olhos} Olhos')
+print(f'Caio vai ter {caio.olhos} Olhos, vai ter {caio.orelha} orelhas e vai ter {caio.chife} chife')
+print(f'Max vai ter {max.olhos} olhos, {max.orelha} orelhas e {max.pinto} pinto')
+
 print(caio.cumprimentar())
 print(max.cumprimentar())
